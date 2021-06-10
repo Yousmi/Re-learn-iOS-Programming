@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="04B59CAB-835F-4B36-8B61-FAD93184318F">
+    <Notes>
+        <Note ID="0" FontSize="12.0" Position="326.141937,144.63002" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>云之家项目</String>
+            <ConnectedNoteIDs>1</ConnectedNoteIDs>
+            <PointsToNoteIDs>1</PointsToNoteIDs>
+        </Note>
+        <Note ID="1" FontSize="12.0" Position="131.724915,215.034424" Width="457.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>1、我负责了些什么
+	1、我负责通讯录模块的开发和维护，同时也会交叉着维护其他一些模块的内容
+	2、我负责选人模块的开发、重构和维护</String>
+            <ConnectedNoteIDs>0, 2</ConnectedNoteIDs>
+            <PointsToNoteIDs>2</PointsToNoteIDs>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="128.462296,301.011353" Width="458.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>2、在我负责的事项中，我是怎么做的
+	1、我认为通讯模块的开发的重点在于本地数据的读取需要非常的快速，不仅是在本模块中读取数据，还包括把数据提供给其他的模块
+	2、通讯录的数据作为整个App基础功能的根本，整个数据从网络上获取的时候，也需要很快速和及时。
+	3、选人模块的开发重点就是要保证用户在操作是，不能有卡顿出现，同时也需要支持各种场景下的选人业务</String>
+            <ConnectedNoteIDs>1, 3</ConnectedNoteIDs>
+            <PointsToNoteIDs>3</PointsToNoteIDs>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="132.275955,467.460754" Width="452.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>3、我遇到了什么问题
+	1、我在开发通讯录模块时，遇到过一个问题：我们通过行为日志发现有个企业，在用户点击企业通讯录时，会比较耗时，这个企业大概有10万的员工。
+	2、我在维护老的选人模块时，发现几个问题，
+		a：对于不同业务场景下，不能快速的对接选人业务，要完成一个特定场景下的选人需求，可能需要入侵到选人模块里面才能完成；
+ 		b、在选择每一个人员时，对压入栈的所有界面都会回调进行刷新
+		c、在有个场景下的会很卡顿
+	3、启动App后，我快速在几个tab上点击时，app不能快速的响应我的点击事件</String>
+            <ConnectedNoteIDs>2, 4</ConnectedNoteIDs>
+            <PointsToNoteIDs>4</PointsToNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="5.177826,666.484985" Width="711.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>4、我是怎么解决的
+	1、在发现有10万条数据接口缓慢时，我推动了后台对接口和获取企业人员数据方案进行改造
+		1、首次点击企业通讯录时，没有必要就进行全量请求，就把网络请求改造成根据部门部门id进行分节点进行请求，
+			同时对获取企业全量的人员接口的返回改成数据流的方式，不在是json的方式，把数据流转成本地文件，文件里面只记录一些基本的信息，比如说id，名称， 手机号，头像，部门id，部门名称，10万条数据 然后从文件里面读取逐行读取企业人员的相关信息。同时在首页数据显示完之后开启异步线程进行预请求数据。
+		在数据有变更时，采用增量更新的方式进行数据请求，这时候采用是数据格式是json，在登录成功后，会在同步版本好的接口里面有相应模块，相应功能的的版本号，这时候，发现返回的版本比当前的要大，就直接请求，否则不做请求
+
+	2、在老的选人模块的维护和业务对接中，因为不能够快速对接业务，在多次跟组长沟通之后，进行了改造
+		1、先完成了适应不同场景的改造，我采用的方案是 外部配置，内部根据配置来组合构建首页和数据。我还采用了分级设计：
+			a、首先是为了对老业务代码改的少，我先封装一层的统一入口层，这样老业务更替的时候，改动的就小
+			b、可自定义首页数据来完成不同场景下的首页数据需求 
+			c、采用工厂模式来配置和构建不同场景下的数据展示需求
+			d、用协议的方式来对不同需求下的数据展示区域进行数据填充
+		这样做是为了减少对选人主界面的代码入侵和提高选人主界面的灵活性
+		2、在每次选人时候不在进行栈内控制器视图的刷新，统一到开始展示时候进行视图刷新
+		3、在组件内，为了让数据处理的快速一些，采用了空间换时间的方式，在去重、判断是否存等操作上面采用Map方式快速查询
+
+	3、我快速点击tab时，App不能够快速响应我的点击事件这是因为在主队列做的事情太多了，导致处理点击事件延迟
+		因为后面几个tab是首次加载，快速点击时，都会走一次完整的界面加载逻辑，我就分析和检查了一些主要方法内的业务逻辑，把能在子线程做的事情，都放到了子线程，最重要的是数据获取逻辑，因为我们本地数据库逻辑还是采用的FMDB,FMDatabaseQueue还是采用的是同步逻辑，这中情况下还是会阻塞主队列</String>
+            <ConnectedNoteIDs>3, 5</ConnectedNoteIDs>
+            <PointsToNoteIDs>5</PointsToNoteIDs>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="87.455948,1143.407715" Width="542.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>5、 这样做完之后，有什么样的结果
+	1、在改造完企业人员数据获取方式之后，之前的用户习惯或有些改变，在一层一层点击下去时候，会进行网络数据获取，需要等待一小会，之前是只会在首次点击的时候进行网络请求和卡顿，这样做完的好处就是提高App的响应速度， 也保证了用户能及时看到数据
+	 2、在我把老业务替换成新的选人模块之后，选人模块出现的bug也少了，整个选人过程中App也不会再出现等待现象了， 选人模块也更加轻量化了；在后续的业务接入时，只需要配置下参数组合就能快速完成，就算是全新的业务需求也只需要配置参数，回塞数据，定制UI规则，就能快速完成，同时整个模块的代码结构也更清晰了。</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="1742.70752,231.740555" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>快乐平安项目</String>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="1279.926147,302.885284" Width="111.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>1、我负责了些什么</String>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="1601.905518,302.080994" Width="63.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>1、组件化</String>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="1774.376953,301.140259" Width="87.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>2、包大小优化</String>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="2003.317627,301.684662" Width="75.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>3、启动优化</String>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="1241.912842,384.786469" Width="213.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>2、在我负责的事项中，我是怎么做的</String>
+        </Note>
+        <Note ID="13" FontSize="12.0" Position="765.0,818.0" Width="411.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>技术重点：
+1、数据库IO的同步导致的延时
+2、数据载入时候的大内存消耗和文件读取的消耗方案选择
+3、工厂模式进行动态配置逻辑处理类
+4、协议代替继承来构建cell的内容，减少耦合，也做到的单一cell的单一职责
+5、接口隔离 -&gt; 减少对老业务的入侵
+6、结合场景使用相关一些数据结构来加快数据的处理</String>
+            <ConnectedNoteIDs>14</ConnectedNoteIDs>
+            <PointsToNoteIDs>14</PointsToNoteIDs>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="752.0,1143.0" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>扩展的技术要点
+1、多线程
+2、内存优化
+3、设计模式
+4、解耦方案
+5、设计原则
+6、数据结构</String>
+            <ConnectedNoteIDs>13, 17, 21</ConnectedNoteIDs>
+            <PointsToNoteIDs>17</PointsToNoteIDs>
+        </Note>
+        <Note ID="17" FontSize="12.0" Position="962.0,1070.0" Width="224.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>内存优化：先要了解一些常见的内存问题
+1、内存泄漏
+2、内存激增
+3、内存异常
+4、内存告警</String>
+            <ConnectedNoteIDs>14, 18</ConnectedNoteIDs>
+            <PointsToNoteIDs>18</PointsToNoteIDs>
+        </Note>
+        <Note ID="18" FontSize="12.0" Position="1248.646484,1046.59082" Width="301.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>内存泄漏
+1、常见于循环引用，导致该及时释放的内存得不到释放</String>
+            <ConnectedNoteIDs>17, 19</ConnectedNoteIDs>
+            <PointsToNoteIDs>19</PointsToNoteIDs>
+        </Note>
+        <Note ID="19" FontSize="12.0" Position="1580.0,868.426392" Width="383.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>常见问题：1、UIGraphicsEndImageContext的context泄漏
+2、UIWebView问题
+3、AutoreleasePool
+4、相互引用
+5、大图片处理，比如说图片的缩放，采用ImageIO底层接口处理可以规避中间的bitmap，主要因为 drawInRect时会先解码，生成原生分辨率大小的bitmap
+6、大视图</String>
+            <ConnectedNoteIDs>18</ConnectedNoteIDs>
+        </Note>
+        <Note ID="21" FontSize="12.0" Position="955.0,1186.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>性能优化</String>
+            <ConnectedNoteIDs>14, 22</ConnectedNoteIDs>
+            <PointsToNoteIDs>22</PointsToNoteIDs>
+        </Note>
+        <Note ID="22" FontSize="12.0" Position="1079.0,1188.0" Width="229.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>一些方向
+1、内存   2、电量   3、初始化时间
+4、执行速度   5、响应速度   6、本地存储
+7、互操作性   8、网络环境   9、带宽
+10、数据刷新   11、多用户支持
+12、单点登录   13、安全   14、崩溃</String>
+            <ConnectedNoteIDs>21</ConnectedNoteIDs>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <AutoFit>6-10, 13-14, 17, 21-22</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="BF40B6A7-D854-4D4C-B134-54925B277A0C" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.561855 0.71062 0.779401</BorderColor>
+            <FillColor>0.702319 0.888276 0.974252</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="1C6772CE-B787-4A4C-8ED0-9503EA1F7E16" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.572684 0.758969 0.558154</BorderColor>
+            <FillColor>0.715855 0.948712 0.697692</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="01CFABB4-0C03-4CCB-85FF-65FF0172EB1A" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.957566 0.766747 0.999616</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="D84357D9-1DCB-48CE-9765-5CC3E0C03416" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.993495 0.701207 0.732587</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="EE3B3967-DCED-4575-98EB-531EBF4DDAB9" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.798177 0.714184 0.522055</BorderColor>
+            <FillColor>0.997722 0.89273 0.652569</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="347CFBAB-9655-416C-A5EE-1F7F41D56310" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985948 0.0 0.026951</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="824BBBD6-4052-42DE-8F59-0DF0B1E99F65" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999767 0.98837 0.949907</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
