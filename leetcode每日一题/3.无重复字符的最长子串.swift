@@ -9,7 +9,27 @@
 import Foundation
 
 class Solution_3 {
-    
+    func lengthOfLongestSubstring(_ s: String) -> Int  {
+        guard s.count > 0 else {
+            return 0
+        }
+        let arr = Array(s)
+        var left = 0, right = 0, res = 0
+        while right < arr.count {
+            var i = left
+            while i < right {
+                if arr[i] == arr[right] {
+                    left = i + 1
+                    break
+                }
+                i += 1
+            }
+            res = max(res, right - left + 1)
+            right += 1
+        }
+        return res
+    }
+
     func theLongestSubstring(_ s: String) -> String  {
         guard s.count > 0 else {
             return s
