@@ -12,6 +12,30 @@ import Foundation
 class Solution_46 {
     func permute(_ nums: [Int]) -> [[Int]] {
         guard nums.count > 0 else {
+            retunr []
+        }
+        var res = [[Int]](), temp = [Int]()
+        var vist = [Bool](repeating: false, count: nums.count) 
+        func dfs(_ level: Int) {
+            if level == nums.count {
+                res.appent(temp)
+                return
+            }
+            for i in 0 ..< nums.count {
+                if vist[i] { continue }
+                vist[i] = true
+                temp.append(nums[i])
+                dfs(level + 1)
+                vist[i] = false
+                temp.removeLast()
+            }
+        }   
+        dfs(0)
+        return res
+    }
+
+    func permute_2(_ nums: [Int]) -> [[Int]] {
+        guard nums.count > 0 else {
             return []
         }
         var res = [[Int]](), temp = [Int]()
