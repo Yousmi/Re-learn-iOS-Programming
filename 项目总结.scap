@@ -44,7 +44,7 @@
             <ConnectedNoteIDs>2, 4</ConnectedNoteIDs>
             <PointsToNoteIDs>4</PointsToNoteIDs>
         </Note>
-        <Note ID="4" FontSize="12.0" Position="5.0,666.0" Width="711.0">
+        <Note ID="4" FontSize="12.0" Position="16.0,666.0" Width="700.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -84,12 +84,6 @@
             </Appearance>
             <String>快乐平安项目</String>
         </Note>
-        <Note ID="7" FontSize="12.0" Position="1280.0,303.0" Width="111.0">
-            <Appearance>
-                <Alignment>Left</Alignment>
-            </Appearance>
-            <String>1、我负责了些什么</String>
-        </Note>
         <Note ID="8" FontSize="12.0" Position="1602.0,302.0" Width="63.0">
             <Appearance>
                 <Alignment>Left</Alignment>
@@ -107,12 +101,6 @@
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>3、启动优化</String>
-        </Note>
-        <Note ID="11" FontSize="12.0" Position="1242.0,385.0" Width="213.0">
-            <Appearance>
-                <Alignment>Left</Alignment>
-            </Appearance>
-            <String>2、在我负责的事项中，我是怎么做的</String>
         </Note>
         <Note ID="13" FontSize="12.0" Position="765.0,818.0" Width="411.0">
             <Appearance>
@@ -202,9 +190,92 @@
 12、单点登录   13、安全   14、崩溃</String>
             <ConnectedNoteIDs>21</ConnectedNoteIDs>
         </Note>
+        <Note ID="23" FontSize="12.0" Position="615.0,357.054749" Width="209.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>STAR原则：
+	•	Situation：背景的来龙去脉
+	•	Target：目标如何拆解
+	•	Action：采取哪些行动
+	•	Result：结果与反思
+</String>
+            <ConnectedNoteIDs>28, 31, 33</ConnectedNoteIDs>
+        </Note>
+        <Note ID="24" FontSize="12.0" Position="863.108398,73.538971" Width="156.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>负责通讯录模块开发和维护</String>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="860.199341,113.440521" Width="168.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>选人模块的开发、维护和重构</String>
+        </Note>
+        <Note ID="27" FontSize="12.0" Position="1174.184082,212.550842" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>重构</String>
+        </Note>
+        <Note ID="28" FontSize="12.0" Position="883.493408,183.797714" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>选人模块遇到的问题：
+1、开发需求时，需要在组件内部处理相应的业务逻辑，这导致内部耦合度高，不易维护</String>
+            <ConnectedNoteIDs>23</ConnectedNoteIDs>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="1117.907471,73.085083" Width="223.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>1、去梳理并记录清楚里面的相关业务点
+2、设定要达到的结果
+3、考虑相关的设计模式
+4、编码
+5、测试
+6、整理出相关的文档</String>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="881.911865,294.866699" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>设定的目标是：易扩展、提高可读性、可测试
+做了如下拆分
+1、拆分VC中不相关的逻辑
+2、构建可定制的界面
+3、提高程序的响应速度</String>
+            <ConnectedNoteIDs>23</ConnectedNoteIDs>
+        </Note>
+        <Note ID="33" FontSize="12.0" Position="882.0,427.0" Width="383.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>1、先整理和记录相关的业务
+2、采用类MVVM，抽离了一个业务承载类
+3、抽离相关的参数设置，再采用面向对象的组合模式对参数进行组合
+4、利用OOP的继承和多态特点来在构建不同的内容Cell</String>
+            <ConnectedNoteIDs>23</ConnectedNoteIDs>
+        </Note>
     </Notes>
     <BackgroundShapes></BackgroundShapes>
-    <AutoFit>6-10, 13-14, 17, 21-22</AutoFit>
+    <Labels>
+        <Label IDs="23,28">背景</Label>
+        <Label IDs="23,31">拆解</Label>
+        <Label IDs="23,33">行动</Label>
+    </Labels>
+    <AutoFit>6, 8-10, 13-14, 17, 21-22</AutoFit>
     <NoteStyles>
         <Style Name="Bubble (Blue)" ID="BF40B6A7-D854-4D4C-B134-54925B277A0C" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
             <BorderThickness>1</BorderThickness>
