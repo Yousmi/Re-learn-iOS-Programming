@@ -78,30 +78,6 @@
 	 2、在我把老业务替换成新的选人模块之后，选人模块出现的bug也少了，整个选人过程中App也不会再出现等待现象了， 选人模块也更加轻量化了；在后续的业务接入时，只需要配置下参数组合就能快速完成，就算是全新的业务需求也只需要配置参数，回塞数据，定制UI规则，就能快速完成，同时整个模块的代码结构也更清晰了。</String>
             <ConnectedNoteIDs>4</ConnectedNoteIDs>
         </Note>
-        <Note ID="6" FontSize="12.0" Position="1743.0,232.0" Width="80.0">
-            <Appearance>
-                <Alignment>Left</Alignment>
-            </Appearance>
-            <String>快乐平安项目</String>
-        </Note>
-        <Note ID="8" FontSize="12.0" Position="1602.0,302.0" Width="63.0">
-            <Appearance>
-                <Alignment>Left</Alignment>
-            </Appearance>
-            <String>1、组件化</String>
-        </Note>
-        <Note ID="9" FontSize="12.0" Position="1774.0,301.0" Width="87.0">
-            <Appearance>
-                <Alignment>Left</Alignment>
-            </Appearance>
-            <String>2、包大小优化</String>
-        </Note>
-        <Note ID="10" FontSize="12.0" Position="2003.0,302.0" Width="75.0">
-            <Appearance>
-                <Alignment>Left</Alignment>
-            </Appearance>
-            <String>3、启动优化</String>
-        </Note>
         <Note ID="13" FontSize="12.0" Position="765.0,818.0" Width="411.0">
             <Appearance>
                 <Alignment>Left</Alignment>
@@ -257,25 +233,79 @@
 3、提高程序的响应速度</String>
             <ConnectedNoteIDs>23</ConnectedNoteIDs>
         </Note>
-        <Note ID="33" FontSize="12.0" Position="882.0,427.0" Width="383.0">
+        <Note ID="33" FontSize="12.0" Position="882.0,427.0" Width="370.0">
             <Appearance>
                 <Alignment>Left</Alignment>
                 <Border Weight="1"></Border>
             </Appearance>
             <String>1、先整理和记录相关的业务
 2、采用类MVVM，抽离了一个业务承载类
-3、抽离相关的参数设置，再采用面向对象的组合模式对参数进行组合
-4、利用OOP的继承和多态特点来在构建不同的内容Cell</String>
+3、对老的参数进行分类，再用面向对象的组合方式对参数进行整合
+4、采用工厂模式，来统一管理和构建不同类型对应的cell
+5、利用OOP的继承和多态特点来在填充cell上的内容</String>
             <ConnectedNoteIDs>23</ConnectedNoteIDs>
+        </Note>
+        <Note ID="34" FontSize="12.0" Position="1514.0,313.0" Width="171.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>企鹅号App岗位 专业知识图谱</String>
+        </Note>
+        <Note ID="35" FontSize="12.0" Position="1739.0,214.0" Width="205.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>计算机和网络，常见的网络通信机制</String>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="1740.0,247.0" Width="131.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>常见的数据结构和算法</String>
+        </Note>
+        <Note ID="37" FontSize="12.0" Position="1740.0,279.0" Width="154.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>深入理解Runtime运行机制</String>
+        </Note>
+        <Note ID="38" FontSize="12.0" Position="1740.580933,311.871735" Width="131.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>深入理解内存管理机制</String>
+        </Note>
+        <Note ID="39" FontSize="12.0" Position="1741.0,343.0" Width="159.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>深入的性能优化成果 —优先</String>
+        </Note>
+        <Note ID="41" FontSize="12.0" Position="1742.0,375.0" Width="180.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>有Flutter深入了解和实践—优先</String>
         </Note>
     </Notes>
     <BackgroundShapes></BackgroundShapes>
+    <Stacks>
+        <Stack>36-37</Stack>
+        <Stack>38-39</Stack>
+    </Stacks>
     <Labels>
         <Label IDs="23,28">背景</Label>
         <Label IDs="23,31">拆解</Label>
         <Label IDs="23,33">行动</Label>
     </Labels>
-    <AutoFit>6, 8-10, 13-14, 17, 21-22</AutoFit>
+    <AutoFit>13-14, 17, 21-22</AutoFit>
     <NoteStyles>
         <Style Name="Bubble (Blue)" ID="BF40B6A7-D854-4D4C-B134-54925B277A0C" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
             <BorderThickness>1</BorderThickness>
