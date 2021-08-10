@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="0A5E7528-7662-4E34-96F7-56018028F2E8">
+    <Notes>
+        <Note ID="70" FontSize="5.0" Position="511.0,499.0" Width="239.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>Array 实战题目
+	•	两数之和（近半年内，字节跳动在面试中考查此题达到 152 次）
+	•	盛最多水的容器（腾讯、百度、字节跳动在近半年内面试常考）
+	•	移动零（华为、字节跳动在近半年内面试常考）
+	•	爬楼梯（阿里巴巴、腾讯、字节跳动在半年内面试常考）
+	•	三数之和（国内、国际大厂历年面试高频老题）
+
+Linked List 实战题目
+	•	反转链表（字节跳动、亚马逊在半年内面试常考）
+	•	两两交换链表中的节点（阿里巴巴、字节跳动在半年内面试常考）
+	•	环形链表（阿里巴巴、字节跳动、腾讯在半年内面试常考）
+	•	环形链表 II
+	•	K 个一组翻转链表（字节跳动、猿辅导在半年内面试常考）
+
+预习题目
+	•	有效的括号（亚马逊、JPMorgan 在半年内面试常考）
+	•	最小栈（亚马逊在半年内面试常考）
+
+实战题目
+	•	柱状图中最大的矩形（亚马逊、微软、字节跳动在半年内面试中考过）
+	•	滑动窗口最大值（亚马逊在半年内面试常考）
+
+课后作业
+	•	用 add first 或 add last 这套新的 API 改写 Deque 的代码
+	•	分析 Queue 和 Priority Queue 的源码
+	•	设计循环双端队列（Facebook 在 1 年内面试中考过）
+	•	接雨水（亚马逊、字节跳动、高盛集团、Facebook 在半年内面试常考）
+
+本周作业
+简单：
+	•	用 add first 或 add last 这套新的 API 改写 Deque 的代码
+	•	分析 Queue 和 Priority Queue 的源码
+	•	删除排序数组中的重复项（Facebook、字节跳动、微软在半年内面试中考过）
+	•	旋转数组（微软、亚马逊、PayPal 在半年内面试中考过）
+	•	合并两个有序链表（亚马逊、字节跳动在半年内面试常考）
+	•	合并两个有序数组（Facebook 在半年内面试常考）
+	•	两数之和（亚马逊、字节跳动、谷歌、Facebook、苹果、微软在半年内面试中高频常考）
+	•	移动零（Facebook、亚马逊、苹果在半年内面试中考过）
+	•	加一（谷歌、字节跳动、Facebook 在半年内面试中考过）
+
+中等：
+	•	设计循环双端队列（Facebook 在 1 年内面试中考过）
+
+困难：
+	•	接雨水（亚马逊、字节跳动、高盛集团、Facebook 在半年内面试常考）
+
+下周预习
+预习题目：
+	•	有效的字母异位词
+	•	二叉树的中序遍历
+	•	最小的 k 个数</String>
+            <ConnectedNoteIDs>71, 75</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Link="https://leetcode-cn.com/problems/two-sum/">14,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/container-with-most-water/">49,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/move-zeroes/">81,3</FormatRange>
+                <FormatRange Link="https://leetcode.com/problems/climbing-stairs/">106,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/3sum/">135,4</FormatRange>
+                <FormatRange Link="https://leetcode.com/problems/reverse-linked-list/">178,4</FormatRange>
+                <FormatRange Link="https://leetcode.com/problems/swap-nodes-in-pairs">204,10</FormatRange>
+                <FormatRange Link="https://leetcode.com/problems/linked-list-cycle">237,4</FormatRange>
+                <FormatRange Link="https://leetcode.com/problems/linked-list-cycle-ii">267,4</FormatRange>
+                <FormatRange Link="https://leetcode.com/problems/linked-list-cycle-ii">271,3</FormatRange>
+                <FormatRange Link="https://leetcode.com/problems/reverse-nodes-in-k-group/">278,2</FormatRange>
+                <FormatRange Link="https://leetcode.com/problems/reverse-nodes-in-k-group/">280,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/valid-parentheses/">315,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/min-stack/">347,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/largest-rectangle-in-histogram">373,9</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/sliding-window-maximum">408,7</FormatRange>
+                <FormatRange Link="https://leetcode.com/problems/design-circular-deque">519,8</FormatRange>
+                <FormatRange Link="https://leetcode.com/problems/trapping-rain-water/">553,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/">684,11</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/rotate-array/">726,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/merge-two-sorted-lists/">759,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/merge-sorted-array/">789,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/two-sum/">820,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/move-zeroes/">867,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/plus-one/">900,2</FormatRange>
+                <FormatRange Link="https://leetcode.com/problems/design-circular-deque">939,8</FormatRange>
+                <FormatRange Link="https://leetcode.com/problems/trapping-rain-water/">978,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/valid-anagram/description/">1030,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/binary-tree-inorder-traversal/">1042,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/">1054,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/">1057,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/">1060,2</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="71" FontSize="12.0" Position="761.0,698.0" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>第一周</String>
+            <ConnectedNoteIDs>70</ConnectedNoteIDs>
+        </Note>
+        <Note ID="72" FontSize="5.0" Position="510.0,874.0" Width="239.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>实战题目 / 课后作业
+	•	有效的字母异位词（亚马逊、Facebook、谷歌在半年内面试中考过）
+	•	字母异位词分组（亚马逊在半年内面试中常考）
+	•	两数之和（亚马逊、字节跳动、谷歌、Facebook、苹果、微软、腾讯在半年内面试中常考）
+
+实战题目 / 课后作业
+	•	二叉树的中序遍历（亚马逊、微软、字节跳动在半年内面试中考过）
+	•	二叉树的前序遍历（谷歌、微软、字节跳动在半年内面试中考过）
+	•	N 叉树的后序遍历（亚马逊在半年内面试中考过）
+	•	N 叉树的前序遍历（亚马逊在半年内面试中考过）
+	•	N 叉树的层序遍历
+
+实战例题
+	•	最小的 k 个数（字节跳动在半年内面试中考过）
+	•	滑动窗口最大值（亚马逊在半年内面试中常考）
+课后作业
+	•	HeapSort ：自学 https://www.geeksforgeeks.org/heap-sort/
+	•	丑数（字节跳动在半年内面试中考过）
+	•	前 K 个高频元素（亚马逊在半年内面试中常考）
+
+思考题
+	•	自己画一下有向有权图
+参考链接
+	•	连通图个数： https://leetcode-cn.com/problems/number-of-islands/
+	•	拓扑排序（Topological Sorting）： https://zhuanlan.zhihu.com/p/34871092
+	•	最短路径（Shortest Path）：Dijkstra https://www.bilibili.com/video/av25829980?from=search&amp;seid=13391343514095937158
+	•	最小生成树（Minimum Spanning Tree）： https://www.bilibili.com/video/av84820276?from=search&amp;seid=17476598104352152051
+
+本周作业
+简单：
+	•	写一个关于 HashMap 的小总结。说明：对于不熟悉 Java 语言的同学，此项作业可选做。
+	•	有效的字母异位词（亚马逊、Facebook、谷歌在半年内面试中考过）
+	•	两数之和（近半年内，亚马逊考查此题达到 216 次、字节跳动 147 次、谷歌 104 次，Facebook、苹果、微软、腾讯也在近半年内面试常考）
+	•	N 叉树的前序遍历（亚马逊在半年内面试中考过）
+	•	HeapSort ：自学 https://www.geeksforgeeks.org/heap-sort/
+中等：
+	•	字母异位词分组（亚马逊在半年内面试中常考）
+	•	二叉树的中序遍历（亚马逊、字节跳动、微软在半年内面试中考过）
+	•	二叉树的前序遍历（字节跳动、谷歌、腾讯在半年内面试中考过）
+	•	N 叉树的层序遍历（亚马逊在半年内面试中考过）
+	•	丑数（字节跳动在半年内面试中考过）
+	•	前 K 个高频元素（亚马逊在半年内面试中常考）
+下周预习
+预习题目：
+	•	爬楼梯
+	•	括号生成
+	•	Pow(x, n)
+	•	子集
+	•	N 皇后</String>
+            <ConnectedNoteIDs>73, 77</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Link="https://leetcode-cn.com/problems/valid-anagram/description/">15,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/group-anagrams/">53,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/two-sum/description/">78,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/binary-tree-inorder-traversal/">139,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/binary-tree-preorder-traversal/">173,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/">206,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/">208,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/description/">233,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/description/">235,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/">260,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/">262,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/">279,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/">282,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/">285,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/sliding-window-maximum/">306,7</FormatRange>
+                <FormatRange Link="https://www.geeksforgeeks.org/heap-sort/">349,40</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/chou-shu-lcof/">393,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/top-k-frequent-elements/">414,1</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/top-k-frequent-elements/">415,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/top-k-frequent-elements/">418,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/number-of-islands/">471,52</FormatRange>
+                <FormatRange Link="https://zhuanlan.zhihu.com/p/34871092">553,38</FormatRange>
+                <FormatRange Link="https://www.bilibili.com/video/av25829980?from=search&amp;seid=13391343514095937158">624,79</FormatRange>
+                <FormatRange Link="https://www.bilibili.com/video/av84820276?from=search&amp;seid=17476598104352152051">736,80</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/valid-anagram/description/">881,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/two-sum/description/">919,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/description/">997,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/description/">999,7</FormatRange>
+                <FormatRange Link="https://www.geeksforgeeks.org/heap-sort/">1037,40</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/group-anagrams/">1085,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/binary-tree-inorder-traversal/">1110,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/binary-tree-preorder-traversal/">1144,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/">1177,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/">1179,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/chou-shu-lcof/">1204,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/top-k-frequent-elements/">1225,1</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/top-k-frequent-elements/">1226,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/top-k-frequent-elements/">1229,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/climbing-stairs/">1263,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/generate-parentheses/">1270,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/powx-n/">1278,9</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/subsets/">1291,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens/">1297,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens/">1299,2</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="73" FontSize="12.0" Position="760.0,1066.0" Width="45.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>第二周</String>
+            <ConnectedNoteIDs>72</ConnectedNoteIDs>
+        </Note>
+        <Note ID="74" FontSize="5.0" Position="510.0,1264.0" Width="238.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.225469 0.225462 0.225466</TextColor>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>参考链接
+	•	递归代码模板
+实战题目
+	•	爬楼梯（阿里巴巴、腾讯、字节跳动在半年内面试常考）
+	•	括号生成 (字节跳动在半年内面试中考过)
+	•	翻转二叉树 (谷歌、字节跳动、Facebook 在半年内面试中考过)
+	•	验证二叉搜索树（亚马逊、微软、Facebook 在半年内面试中考过）
+	•	二叉树的最大深度（亚马逊、微软、字节跳动在半年内面试中考过）
+	•	二叉树的最小深度（Facebook、字节跳动、谷歌在半年内面试中考过）
+	•	二叉树的序列化与反序列化（Facebook、亚马逊在半年内面试常考）
+每日一课
+	•	如何优雅地计算斐波那契数列
+课后作业
+	•	二叉树的最近公共祖先（Facebook 在半年内面试常考）
+	•	从前序与中序遍历序列构造二叉树（字节跳动、亚马逊、微软在半年内面试中考过）
+	•	组合（微软、亚马逊、谷歌在半年内面试中考过）
+	•	全排列（字节跳动在半年内面试常考）
+	•	全排列 II （亚马逊、字节跳动、Facebook 在半年内面试中考过）
+参考链接
+	•	分治代码模板
+	•	括号生成问题
+实战题目
+	•	Pow(x, n) （Facebook 在半年内面试常考）
+	•	子集（Facebook、字节跳动、亚马逊在半年内面试中考过）
+参考链接
+	•	牛顿迭代法原理
+	•	牛顿迭代法代码
+实战题目
+	•	多数元素 （亚马逊、字节跳动、Facebook 在半年内面试中考过）
+	•	电话号码的字母组合（亚马逊在半年内面试常考）
+	•	N 皇后（字节跳动、苹果、谷歌在半年内面试中考过）
+本周作业
+中等：
+	•	二叉树的最近公共祖先（Facebook 在半年内面试常考）
+	•	从前序与中序遍历序列构造二叉树（字节跳动、亚马逊、微软在半年内面试中考过）
+	•	组合（微软、亚马逊、谷歌在半年内面试中考过）
+	•	全排列（字节跳动在半年内面试常考）
+	•	全排列 II （亚马逊、字节跳动、Facebook 在半年内面试中考过）
+下周预习
+预习题目：
+	•	二叉树的层次遍历
+	•	分发饼干
+	•	买卖股票的最佳时机 II
+	•	跳跃游戏
+	•	x 的平方根
+	•	有效的完全平方数</String>
+            <ConnectedNoteIDs>78-79</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Link="https://shimo.im/docs/EICAr9lRPUIPHxsH/">8,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/climbing-stairs/">23,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/generate-parentheses/">52,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/invert-binary-tree/description/">76,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/validate-binary-search-tree">114,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/maximum-depth-of-binary-tree">152,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/minimum-depth-of-binary-tree">186,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/">225,12</FormatRange>
+                <FormatRange Link="https://time.geekbang.org/dailylesson/detail/100028406">268,13</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/">290,10</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal">323,15</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/combinations/">364,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/permutations/">390,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/permutations-ii/">411,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/permutations-ii/">414,4</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/zvlDqLLMFvcAF79A/">456,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/generate-parentheses/">466,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/powx-n/">481,10</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/subsets/">514,2</FormatRange>
+                <FormatRange Link="http://www.matrix67.com/blog/archives/361">553,7</FormatRange>
+                <FormatRange Link="http://www.voidcn.com/article/p-eudisdmk-zm.html">564,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/majority-element/description/">580,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/">618,9</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens/">644,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens/">646,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/">682,10</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/">715,15</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/combinations/">756,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/permutations/">782,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/permutations-ii/">803,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/permutations-ii/">806,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/binary-tree-level-order-traversal/#/description">854,8</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/assign-cookies/description/">866,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/">874,9</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/">883,3</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/jump-game/">890,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/sqrtx/">898,2</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/sqrtx/">900,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/valid-perfect-square/">908,8</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="75" FontSize="12.0" Position="759.0,641.0" Width="176.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>数组、链表、跳表
+栈、队列、优先队列、双端队列</String>
+            <ConnectedNoteIDs>70</ConnectedNoteIDs>
+        </Note>
+        <Note ID="77" FontSize="12.0" Position="759.0,952.0" Width="140.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>哈希表、映射、集合
+树、二叉树、二叉搜索树
+堆和二叉堆、图</String>
+            <ConnectedNoteIDs>72</ConnectedNoteIDs>
+        </Note>
+        <Note ID="78" FontSize="12.0" Position="760.0,1414.0" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>第三周</String>
+            <ConnectedNoteIDs>74</ConnectedNoteIDs>
+        </Note>
+        <Note ID="79" FontSize="12.0" Position="758.0,1348.0" Width="126.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>泛型递归、树的递归
+分治、回溯</String>
+            <ConnectedNoteIDs>74</ConnectedNoteIDs>
+        </Note>
+        <Note ID="80" FontSize="5.0" Position="508.0,1619.0" Width="239.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>参考链接
+	•	DFS 代码模板（递归写法、非递归写法）
+	•	BFS 代码模板
+实战题目
+	•	二叉树的层序遍历（字节跳动、亚马逊、微软在半年内面试中考过）
+	•	最小基因变化
+	•	括号生成（字节跳动、亚马逊、Facebook 在半年内面试中考过）
+	•	在每个树行中找最大值（微软、亚马逊、Facebook 在半年内面试中考过）
+课后作业
+	•	单词接龙（亚马逊在半年内面试常考）
+	•	单词接龙 II （微软、亚马逊、Facebook 在半年内面试中考过）
+	•	岛屿数量（近半年内，亚马逊在面试中考查此题达到 350 次）
+	•	扫雷游戏（亚马逊、Facebook 在半年内面试中考过）
+参考链接
+	•	coin change 题目
+	•	动态规划定义
+课后作业
+	•	柠檬水找零（亚马逊在半年内面试中考过）
+	•	买卖股票的最佳时机 II （亚马逊、字节跳动、微软在半年内面试中考过）
+	•	分发饼干（亚马逊在半年内面试中考过）
+	•	模拟行走机器人
+	•	跳跃游戏 （亚马逊、华为、Facebook 在半年内面试中考过）
+	•	跳跃游戏 II （亚马逊、华为、字节跳动在半年内面试中考过）
+参考链接
+	•	二分查找代码模板
+	•	Fast InvSqrt() 扩展阅读
+实战题目
+	•	x 的平方根（字节跳动、微软、亚马逊在半年内面试中考过）
+	•	有效的完全平方数（亚马逊在半年内面试中考过）
+课后作业
+	•	搜索旋转排序数组（Facebook、字节跳动、亚马逊在半年内面试常考）
+	•	搜索二维矩阵（亚马逊、微软、Facebook 在半年内面试中考过）
+	•	寻找旋转排序数组中的最小值（亚马逊、微软、字节跳动在半年内面试中考过）
+	•	使用二分查找，寻找一个半有序数组 [4, 5, 6, 7, 0, 1, 2] 中间无序的地方 说明：同学们可以将自己的思路、代码写在学习总结中
+本周作业
+简单：
+	•	柠檬水找零（亚马逊在半年内面试中考过）
+	•	买卖股票的最佳时机 II （亚马逊、字节跳动、微软在半年内面试中考过）
+	•	分发饼干（亚马逊在半年内面试中考过）
+	•	模拟行走机器人
+	•	使用二分查找，寻找一个半有序数组 [4, 5, 6, 7, 0, 1, 2] 中间无序的地方 说明：同学们可以将自己的思路、代码写在第 4 周的学习总结中
+中等：
+	•	单词接龙（亚马逊在半年内面试常考）
+	•	岛屿数量（近半年内，亚马逊在面试中考查此题达到 350 次）
+	•	扫雷游戏（亚马逊、Facebook 在半年内面试中考过）
+	•	跳跃游戏 （亚马逊、华为、Facebook 在半年内面试中考过）
+	•	搜索旋转排序数组（Facebook、字节跳动、亚马逊在半年内面试常考）
+	•	搜索二维矩阵（亚马逊、微软、Facebook 在半年内面试中考过）
+	•	寻找旋转排序数组中的最小值（亚马逊、微软、字节跳动在半年内面试中考过）
+困难
+	•	单词接龙 II （微软、亚马逊、Facebook 在半年内面试中考过）
+	•	跳跃游戏 II （亚马逊、华为、字节跳动在半年内面试中考过）
+第 6 周预习
+预习题目：
+	•	最长公共子序列题目
+	•	三角形最小路径和
+	•	最大子序和
+	•	打家劫舍</String>
+            <ConnectedNoteIDs>81-82</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Link="https://shimo.im/docs/UdY2UUKtliYXmk8t/">8,4</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/UdY2UUKtliYXmk8t/">12,16</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/ZBghMEZWix0Lc2jQ/">32,4</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/ZBghMEZWix0Lc2jQ/">36,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/binary-tree-level-order-traversal/#/description">49,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/minimum-genetic-mutation/#/description">83,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/generate-parentheses/#/description">93,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/#/description">130,10</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/word-ladder/description/">176,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/word-ladder-ii/description/">197,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/word-ladder-ii/description/">201,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/number-of-islands/">236,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/minesweeper/description/">270,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/coin-change/">307,12</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/coin-change/">319,2</FormatRange>
+                <FormatRange Link="https://zh.wikipedia.org/wiki/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92">325,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/lemonade-change/description/">340,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/">363,9</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/">372,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/assign-cookies/description/">402,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/walking-robot-simulation/description/">424,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/jump-game/">435,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/jump-game-ii/">471,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/jump-game-ii/">475,4</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/xvIIfeEzWYEUdBPD/">510,8</FormatRange>
+                <FormatRange Link="https://www.beyond3d.com/content/articles/8/">522,15</FormatRange>
+                <FormatRange Link="https://www.beyond3d.com/content/articles/8/">537,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/sqrtx/">550,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/sqrtx/">552,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/valid-perfect-square/">582,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/search-in-rotated-sorted-array/">613,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/search-a-2d-matrix/">652,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/">689,13</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/lemonade-change/description/">812,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/">835,9</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/">844,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/assign-cookies/description/">874,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/walking-robot-simulation/description/">896,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/word-ladder/description/">992,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/number-of-islands/">1013,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/minesweeper/description/">1047,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/jump-game/">1079,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/search-in-rotated-sorted-array/">1115,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/search-a-2d-matrix/">1154,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/">1191,13</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/word-ladder-ii/description/">1233,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/word-ladder-ii/description/">1237,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/jump-game-ii/">1272,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/jump-game-ii/">1276,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/longest-common-subsequence/">1320,9</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/triangle/description/">1333,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/maximum-subarray/">1345,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/house-robber/">1354,4</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="81" FontSize="12.0" Position="758.0,1844.0" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>第四周</String>
+            <ConnectedNoteIDs>80</ConnectedNoteIDs>
+        </Note>
+        <Note ID="82" FontSize="12.0" Position="757.0,1771.0" Width="68.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>BFS、DFS
+贪心
+二分查找</String>
+            <ConnectedNoteIDs>80</ConnectedNoteIDs>
+        </Note>
+        <Note ID="83" FontSize="5.0" Position="510.0,2066.0" Width="239.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.225469 0.225462 0.225466</TextColor>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>参考链接
+	•	递归代码模板
+	•	分治代码模板
+	•	动态规划定义
+参考链接
+	•	不同路径（Facebook、亚马逊、微软在半年内面试中考过）
+	•	不同路径 II （谷歌、美团、微软在半年内面试中考过）
+	•	最长公共子序列（字节跳动、谷歌、亚马逊在半年内面试中考过）
+	•	MIT 动态规划课程最短路径算法
+实战题目
+	•	爬楼梯（阿里巴巴、腾讯、字节跳动在半年内面试常考）
+	•	三角形最小路径和（亚马逊、苹果、字节跳动在半年内面试考过）
+	•	三角形最小路径和高票回答： https://leetcode.com/problems/triangle/discuss/38735/Python-easy-to-understand-solutions-(top-down-bottom-up)
+	•	最大子序和（亚马逊、字节跳动在半年内面试常考）
+	•	乘积最大子数组（亚马逊、字节跳动、谷歌在半年内面试中考过）
+	•	零钱兑换（亚马逊在半年内面试中常考）
+实战题目
+	•	打家劫舍（字节跳动、谷歌、亚马逊在半年内面试中考过）
+	•	打家劫舍 II （字节跳动在半年内面试中考过）
+	•	买卖股票的最佳时机（亚马逊、字节跳动、Facebook 在半年内面试中常考）
+	•	买卖股票的最佳时机 II （亚马逊、字节跳动、微软在半年内面试中考过）
+	•	买卖股票的最佳时机 III （字节跳动在半年内面试中考过）
+	•	最佳买卖股票时机含冷冻期（谷歌、亚马逊在半年内面试中考过）
+	•	买卖股票的最佳时机 IV （谷歌、亚马逊、字节跳动在半年内面试中考过）
+	•	买卖股票的最佳时机含手续费
+	•	一个方法团灭 6 道股票问题
+高级 DP 实战题目
+	•	完全平方数（亚马逊、谷歌在半年内面试中考过）
+	•	编辑距离 （重点）
+	•	跳跃游戏（亚马逊在半年内面试中考过）
+	•	跳跃游戏 II （亚马逊、华为字节跳动在半年内面试中考过）
+	•	不同路径（Facebook、亚马逊、微软在半年内面试中考过）
+	•	不同路径 II （谷歌、美团、微软在半年内面试中考过）
+	•	不同路径 III （谷歌在半年内面试中考过）
+	•	零钱兑换（亚马逊在半年内面试中常考）
+	•	零钱兑换 II （亚马逊、字节跳动在半年内面试中考过）
+注意：请大家先消化前面的实战题目，高级 DP 的方法和题解会在课程后面解锁。
+本周作业
+中等
+	•	最小路径和（亚马逊、高盛集团、谷歌在半年内面试中考过）
+	•	解码方法（亚马逊、Facebook、字节跳动在半年内面试中考过）
+	•	最大正方形（华为、谷歌、字节跳动在半年内面试中考过）
+	•	任务调度器（Facebook 在半年内面试中常考）
+	•	回文子串（Facebook、苹果、字节跳动在半年内面试中考过）
+困难
+	•	最长有效括号（字节跳动、亚马逊、微软在半年内面试中考过）
+	•	编辑距离（字节跳动、亚马逊、谷歌在半年内面试中考过）
+	•	矩形区域不超过 K 的最大数值和（谷歌在半年内面试中考过）
+	•	青蛙过河（亚马逊、苹果、字节跳动在半年内面试中考过）
+	•	分割数组的最大值（谷歌、亚马逊、Facebook 在半年内面试中考过）
+	•	学生出勤记录 II （谷歌在半年内面试中考过）
+	•	最小覆盖子串（Facebook 在半年内面试中常考）
+	•	戳气球（亚马逊在半年内面试中考过）
+下周预习
+预习题目：
+	•	实现 Trie (前缀树)
+	•	单词搜索 II
+	•	岛屿数量
+	•	有效的数独
+	•	N 皇后
+	•	单词接龙
+	•	二进制矩阵中的最短路径
+</String>
+            <ConnectedNoteIDs>84-85</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Link="https://shimo.im/docs/EICAr9lRPUIPHxsH">8,6</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/zvlDqLLMFvcAF79A">18,6</FormatRange>
+                <FormatRange Link="https://en.wikipedia.org/wiki/Dynamic_programming">28,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/unique-paths/">43,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/unique-paths-ii/">77,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/unique-paths-ii/">81,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/longest-common-subsequence/">108,7</FormatRange>
+                <FormatRange Link="https://www.bilibili.com/video/av53233912?from=search&amp;seid=2847395688604491997">141,4</FormatRange>
+                <FormatRange Link="https://www.bilibili.com/video/av53233912?from=search&amp;seid=2847395688604491997">145,12</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/climbing-stairs/description/">166,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/triangle/description/">195,8</FormatRange>
+                <FormatRange Link="https://leetcode.com/problems/triangle/discuss/38735/Python-easy-to-understand-solutions-(top-down-bottom-up)">241,110</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/maximum-subarray/">355,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/maximum-product-subarray/description/">382,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/coin-change/description/">415,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/house-robber/">442,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/house-robber-ii/description/">472,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/house-robber-ii/description/">476,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/#/description">499,9</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/">541,9</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/">550,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/">580,9</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/">589,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/">613,12</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/">646,9</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/">655,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/">685,13</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-3/">702,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-3/">708,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-3/">711,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/perfect-squares/">731,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/edit-distance/">757,4</FormatRange>
+                <FormatRange Bold="Yes">762,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/jump-game/">770,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/jump-game-ii/">792,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/jump-game-ii/">796,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/unique-paths/">825,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/unique-paths-ii/">859,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/unique-paths-ii/">863,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/unique-paths-iii/">890,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/unique-paths-iii/">894,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/coin-change/">916,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/coin-change-2/">938,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/coin-change-2/">942,4</FormatRange>
+                <FormatRange Bold="Yes">966,19</FormatRange>
+                <FormatRange Bold="Yes">985,4</FormatRange>
+                <FormatRange Bold="Yes">989,15</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/minimum-path-sum/">1016,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/decode-ways">1047,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/maximal-square/">1083,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/task-scheduler/">1113,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/palindromic-substrings/">1142,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/longest-valid-parentheses/">1180,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/edit-distance/">1212,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/">1242,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/">1249,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/">1252,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/frog-jump/">1275,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/split-array-largest-sum">1305,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/student-attendance-record-ii/">1344,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/student-attendance-record-ii/">1350,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/minimum-window-substring/">1371,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/burst-balloons/">1401,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/implement-trie-prefix-tree/#/description">1433,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/implement-trie-prefix-tree/#/description">1435,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/implement-trie-prefix-tree/#/description">1442,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/implement-trie-prefix-tree/#/description">1445,1</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/word-search-ii/">1450,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/word-search-ii/">1454,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/number-of-islands/">1461,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/valid-sudoku/description/">1469,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens/">1478,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens/">1480,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/word-ladder/">1486,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/">1494,11</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="84" FontSize="12.0" Position="755.0,2323.0" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>第六周</String>
+            <ConnectedNoteIDs>83</ConnectedNoteIDs>
+        </Note>
+        <Note ID="85" FontSize="12.0" Position="758.0,2270.0" Width="25.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>DP</String>
+            <ConnectedNoteIDs>83</ConnectedNoteIDs>
+        </Note>
+        <Note ID="86" FontSize="5.0" Position="510.0,2533.0" Width="241.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.225469 0.225462 0.225466</TextColor>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>参考链接
+	•	二叉树的层次遍历
+	•	实现 Trie
+	•	Tire 树代码模板实战题目
+	•	实现 Trie (前缀树) （亚马逊、微软、谷歌在半年内面试中考过）
+	•	单词搜索 II （亚马逊、微软、苹果在半年内面试中考过）
+	•	分析单词搜索 2 用 Tire 树方式实现的时间复杂度，请同学们提交在学习总结中。参考链接
+	•	并查集代码模板
+实战题目
+	•	朋友圈（亚马逊、Facebook、字节跳动在半年内面试中考过）
+	•	岛屿数量（近半年内，亚马逊在面试中考查此题达到 361 次）
+	•	被围绕的区域（亚马逊、eBay、谷歌在半年内面试中考过）
+参考链接
+	•	DFS 代码模板
+	•	BFS 代码模板
+	•	AlphaZero Explained
+	•	棋类复杂度
+实战题目
+	•	爬楼梯（阿里巴巴、腾讯、字节跳动在半年内面试常考）
+	•	括号生成（亚马逊、Facebook、字节跳动在半年内面试中考过）
+	•	N 皇后（亚马逊、苹果、字节跳动在半年内面试中考过）
+	•	有效的数独（亚马逊、苹果、微软在半年内面试中考过）
+	•	解数独（亚马逊、华为、微软在半年内面试中考过）
+实战题目
+	•	单词接龙（亚马逊、Facebook、谷歌在半年内面试中考过）
+	•	最小基因变化（谷歌、Twitter、腾讯在半年内面试中考过）
+课后作业
+	•	总结双向 BFS 代码模版，请同学们提交在学习总结中。
+参考链接
+	•	A* 代码模板
+	•	相似度测量方法
+	•	二进制矩阵中的最短路径的 A* 解法
+	•	8 puzzles 解法比较
+实战题目
+	•	二进制矩阵中的最短路径（亚马逊、字节跳动、Facebook 在半年内面试中考过）
+	•	滑动谜题（微软、谷歌、Facebook 在半年内面试中考过）
+	•	解数独（微软、华为、亚马逊在半年内面试中考过）
+参考链接
+	•	平衡树
+本周作业
+简单
+	•	爬楼梯（阿里巴巴、腾讯、字节跳动在半年内面试常考）
+中等
+	•	实现 Trie (前缀树) （亚马逊、微软、谷歌在半年内面试中考过）
+	•	朋友圈（亚马逊、Facebook、字节跳动在半年内面试中考过）
+	•	岛屿数量（近半年内，亚马逊在面试中考查此题达到 361 次）
+	•	被围绕的区域（亚马逊、eBay、谷歌在半年内面试中考过）
+	•	有效的数独（亚马逊、苹果、微软在半年内面试中考过）
+	•	括号生成（亚马逊、Facebook、字节跳动在半年内面试中考过）
+	•	单词接龙（亚马逊、Facebook、谷歌在半年内面试中考过）
+	•	最小基因变化（谷歌、Twitter、腾讯在半年内面试中考过）
+困难
+	•	单词搜索 II （亚马逊、微软、苹果在半年内面试中考过）
+	•	N 皇后（亚马逊、苹果、字节跳动在半年内面试中考过）
+	•	解数独（亚马逊、华为、微软在半年内面试中考过）
+下周预习题目
+	•	LRU 缓存机制
+	•	有效的字母异位词</String>
+            <ConnectedNoteIDs>87-88</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Link="https://leetcode-cn.com/problems/binary-tree-level-order-traversal/">8,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/">20,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/">22,5</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/DP53Y6rOwN8MTCQH">31,5</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/DP53Y6rOwN8MTCQH">36,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/implement-trie-prefix-tree/#/description">49,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/implement-trie-prefix-tree/#/description">51,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/implement-trie-prefix-tree/#/description">58,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/implement-trie-prefix-tree/#/description">61,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/word-search-ii/">87,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/word-search-ii/">91,4</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/VtcxL0kyp04OBHak">168,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/friend-circles">184,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/number-of-islands/">219,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/surrounded-regions/">253,6</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/UdY2UUKtliYXmk8t">290,4</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/UdY2UUKtliYXmk8t">294,4</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/ZBghMEZWix0Lc2jQ">302,4</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/ZBghMEZWix0Lc2jQ">306,4</FormatRange>
+                <FormatRange Link="https://nikcheerla.github.io/deeplearningschool/2018/01/01/AlphaZero-Explained/">314,19</FormatRange>
+                <FormatRange Link="https://en.wikipedia.org/wiki/Game_complexity">337,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/climbing-stairs/">351,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/generate-parentheses/">380,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens/">416,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens/">418,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/valid-sudoku/description/">446,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/sudoku-solver/#/description">475,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/word-ladder/">507,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/minimum-genetic-mutation/">541,6</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/8CzMlrcvbWwFXA8r">616,3</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/8CzMlrcvbWwFXA8r">619,4</FormatRange>
+                <FormatRange Link="https://dataaspirant.com/2015/04/11/five-most-popular-similarity-measures-implementation-in-python/">627,7</FormatRange>
+                <FormatRange Link="https://leetcode.com/problems/shortest-path-in-binary-matrix/discuss/313347/A*-search-in-Python">638,12</FormatRange>
+                <FormatRange Link="https://leetcode.com/problems/shortest-path-in-binary-matrix/discuss/313347/A*-search-in-Python">650,4</FormatRange>
+                <FormatRange Link="https://leetcode.com/problems/shortest-path-in-binary-matrix/discuss/313347/A*-search-in-Python">654,2</FormatRange>
+                <FormatRange Link="https://zxi.mytechroad.com/blog/searching/8-puzzles-bidirectional-astar-vs-bidirectional-bfs/">660,10</FormatRange>
+                <FormatRange Link="https://zxi.mytechroad.com/blog/searching/8-puzzles-bidirectional-astar-vs-bidirectional-bfs/">670,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/">683,11</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/sliding-puzzle/">727,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/sudoku-solver/">761,3</FormatRange>
+                <FormatRange Link="https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree">793,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/climbing-stairs/">808,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/implement-trie-prefix-tree/#/description">840,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/implement-trie-prefix-tree/#/description">842,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/implement-trie-prefix-tree/#/description">849,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/implement-trie-prefix-tree/#/description">852,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/friend-circles">878,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/number-of-islands/">913,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/surrounded-regions/">947,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/valid-sudoku/description/">979,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/generate-parentheses/">1008,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/word-ladder/">1044,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/minimum-genetic-mutation/">1078,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/word-search-ii/">1115,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/word-search-ii/">1119,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens/">1147,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens/">1149,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/sudoku-solver/#/description">1177,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/lru-cache/#/">1211,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/lru-cache/#/">1215,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/valid-anagram/">1223,8</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="87" FontSize="12.0" Position="759.0,2767.0" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>第七周</String>
+            <ConnectedNoteIDs>86</ConnectedNoteIDs>
+        </Note>
+        <Note ID="88" FontSize="12.0" Position="758.0,2674.0" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>字典树和并查集
+高级搜索
+红黑树和AVL树</String>
+            <ConnectedNoteIDs>86</ConnectedNoteIDs>
+        </Note>
+        <Note ID="89" FontSize="5.0" Position="511.0,2969.0" Width="240.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.225469 0.225462 0.225466</TextColor>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>参考链接
+	•	如何从十进制转换为二进制
+参考链接
+	•	N 皇后位运算代码示例
+实战题目 / 课后作业
+	•	位 1 的个数（Facebook、苹果在半年内面试中考过）
+	•	2 的幂（谷歌、亚马逊、苹果在半年内面试中考过）
+	•	颠倒二进制位（苹果在半年内面试中考过）
+	•	N 皇后（字节跳动、亚马逊、百度在半年内面试中考过）
+	•	N 皇后 II （亚马逊在半年内面试中考过）
+	•	比特位计数（字节跳动、Facebook、MathWorks 在半年内面试中考过）
+参考链接
+	•	布隆过滤器的原理和实现
+	•	使用布隆过滤器解决缓存击穿、垃圾邮件识别、集合判重
+	•	布隆过滤器 Python 代码示例
+	•	布隆过滤器 Python 实现示例
+	•	高性能布隆过滤器 Python 实现示例
+	•	布隆过滤器 Java 实现示例 1
+	•	布隆过滤器 Java 实现示例 2
+参考链接
+	•	Understanding the Meltdown exploit
+	•	替换算法总揽
+	•	LRU Cache Python 代码示例
+实战题目 / 课后作业
+	•	LRU 缓存机制（亚马逊、字节跳动、Facebook、微软在半年内面试中常考）
+参考链接
+	•	十大经典排序算法
+	•	快速排序代码示例
+	•	归并排序代码示例
+	•	堆排序代码示例
+课后作业
+用自己熟悉的编程语言，手写各种初级排序代码，提交到学习总结中。
+参考链接
+	•	十大经典排序算法
+	•	9 种经典排序算法可视化动画
+	•	6 分钟看完 15 种排序算法动画展示
+实战题目 / 课后作业
+	•	数组的相对排序（谷歌在半年内面试中考过）
+	•	有效的字母异位词（Facebook、亚马逊、谷歌在半年内面试中考过）
+	•	力扣排行榜（Bloomberg 在半年内面试中考过）
+	•	合并区间（Facebook、字节跳动、亚马逊在半年内面试中常考）
+	•	翻转对（字节跳动在半年内面试中考过）
+本周作业
+简单
+	•	位 1 的个数（Facebook、苹果在半年内面试中考过）
+	•	2 的幂（谷歌、亚马逊、苹果在半年内面试中考过）
+	•	颠倒二进制位（苹果在半年内面试中考过）
+	•	用自己熟悉的编程语言，手写各种初级排序代码，提交到学习总结中。
+	•	数组的相对排序（谷歌在半年内面试中考过）
+	•	有效的字母异位词（Facebook、亚马逊、谷歌在半年内面试中考过）
+中等
+	•	LRU 缓存机制（亚马逊、字节跳动、Facebook、微软在半年内面试中常考）
+	•	力扣排行榜（Bloomberg 在半年内面试中考过）
+	•	合并区间（Facebook、字节跳动、亚马逊在半年内面试中常考）
+困难
+	•	N 皇后（字节跳动、亚马逊、百度在半年内面试中考过）
+	•	N 皇后 II （亚马逊在半年内面试中考过）
+	•	翻转对（字节跳动在半年内面试中考过）
+下周预习题目：
+	•	不同路径
+	•	最小路径和</String>
+            <ConnectedNoteIDs>90-91</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Link="https://zh.wikihow.com/%E4%BB%8E%E5%8D%81%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E8%BF%9B%E5%88%B6">8,12</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/YzWa5ZZrZPYWahK2">29,2</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/YzWa5ZZrZPYWahK2">31,9</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/number-of-1-bits/">56,1</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/number-of-1-bits/">57,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/number-of-1-bits/">60,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/power-of-two/">89,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/power-of-two/">91,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/reverse-bits/">117,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens/description/">140,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens/description/">142,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens-ii/description/">170,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens-ii/description/">172,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens-ii/description/">174,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/counting-bits/description/">196,5</FormatRange>
+                <FormatRange Link="https://www.cnblogs.com/cpselvis/p/6265825.html">245,11</FormatRange>
+                <FormatRange Link="https://blog.csdn.net/tianyaleixiaowu/article/details/74721877">260,25</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/UITYMj1eK88JCJTH">289,5</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/UITYMj1eK88JCJTH">294,8</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/UITYMj1eK88JCJTH">302,4</FormatRange>
+                <FormatRange Link="https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/">310,5</FormatRange>
+                <FormatRange Link="https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/">315,8</FormatRange>
+                <FormatRange Link="https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/">323,4</FormatRange>
+                <FormatRange Link="https://github.com/jhgg/pybloof">331,8</FormatRange>
+                <FormatRange Link="https://github.com/jhgg/pybloof">339,8</FormatRange>
+                <FormatRange Link="https://github.com/jhgg/pybloof">347,4</FormatRange>
+                <FormatRange Link="https://github.com/lovasoa/bloomfilter/blob/master/src/main/java/BloomFilter.java">355,5</FormatRange>
+                <FormatRange Link="https://github.com/lovasoa/bloomfilter/blob/master/src/main/java/BloomFilter.java">360,6</FormatRange>
+                <FormatRange Link="https://github.com/lovasoa/bloomfilter/blob/master/src/main/java/BloomFilter.java">366,4</FormatRange>
+                <FormatRange Link="https://github.com/lovasoa/bloomfilter/blob/master/src/main/java/BloomFilter.java">370,2</FormatRange>
+                <FormatRange Link="https://github.com/Baqend/Orestes-Bloomfilter">376,5</FormatRange>
+                <FormatRange Link="https://github.com/Baqend/Orestes-Bloomfilter">381,6</FormatRange>
+                <FormatRange Link="https://github.com/Baqend/Orestes-Bloomfilter">387,4</FormatRange>
+                <FormatRange Link="https://github.com/Baqend/Orestes-Bloomfilter">391,2</FormatRange>
+                <FormatRange Link="https://www.sqlpassion.at/archive/2018/01/06/understanding-the-meltdown-exploit-in-my-own-simple-words/">402,34</FormatRange>
+                <FormatRange Link="https://en.wikipedia.org/wiki/Cache_replacement_policies">440,6</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/CoyPAyXooGcDuLQo">450,17</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/CoyPAyXooGcDuLQo">467,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/lru-cache/#/">487,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/lru-cache/#/">491,4</FormatRange>
+                <FormatRange Link="https://www.cnblogs.com/onepixel/p/7674659.html">535,8</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/TX9bDbSC7C0CR5XO">547,8</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/sDXxjjiKf3gLVVAU">559,8</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/M2xfacKvwzAykhz6">571,7</FormatRange>
+                <FormatRange Link="https://www.cnblogs.com/onepixel/p/7674659.html">624,8</FormatRange>
+                <FormatRange Link="https://www.bilibili.com/video/av25136272">636,2</FormatRange>
+                <FormatRange Link="https://www.bilibili.com/video/av25136272">638,12</FormatRange>
+                <FormatRange Link="https://www.bilibili.com/video/av63851336">654,2</FormatRange>
+                <FormatRange Link="https://www.bilibili.com/video/av63851336">656,4</FormatRange>
+                <FormatRange Link="https://www.bilibili.com/video/av63851336">660,4</FormatRange>
+                <FormatRange Link="https://www.bilibili.com/video/av63851336">664,9</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/relative-sort-array/">689,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/valid-anagram/">713,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/design-a-leaderboard/">751,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/merge-intervals/">781,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/reverse-pairs/">817,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/number-of-1-bits/">847,1</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/number-of-1-bits/">848,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/number-of-1-bits/">851,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/power-of-two/">880,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/power-of-two/">882,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/reverse-bits/">908,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/relative-sort-array/">966,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/valid-anagram/">990,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/lru-cache/#/">1031,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/lru-cache/#/">1035,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/design-a-leaderboard/">1074,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/merge-intervals/">1104,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens/description/">1143,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens/description/">1145,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens-ii/description/">1173,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens-ii/description/">1175,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/n-queens-ii/description/">1177,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/reverse-pairs/">1199,3</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/unique-paths/">1229,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/minimum-path-sum/">1237,5</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="90" FontSize="12.0" Position="762.0,3192.0" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>第八周</String>
+            <ConnectedNoteIDs>89</ConnectedNoteIDs>
+        </Note>
+        <Note ID="91" FontSize="12.0" Position="759.0,3119.0" Width="117.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>位运算
+布隆过滤器和LRU
+排序算法</String>
+            <ConnectedNoteIDs>89</ConnectedNoteIDs>
+        </Note>
+        <Note ID="92" FontSize="5.0" Position="512.0,3414.0" Width="238.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.225469 0.225462 0.225466</TextColor>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>参考链接
+	•	爬楼梯（阿里巴巴、腾讯、字节跳动在半年内面试常考）
+	•	不同路径（亚马逊、微软、Facebook 在半年内面试中考过）
+	•	打家劫舍（字节跳动、谷歌、苹果在半年内面试中考过）
+	•	最小路径和（字节跳动、谷歌、亚马逊在半年内面试中考过）
+	•	股票买卖（字节跳动、亚马逊、Facebook 在半年内面试常考）
+课后作业
+在学习总结中，写出不同路径 2 这道题目的状态转移方程。
+参考链接
+	•	爬楼梯（阿里巴巴、腾讯、字节跳动在半年内面试常考）
+	•	使用最小花费爬楼梯（亚马逊在半年内面试中考过）
+	•	编辑距离（字节跳动、亚马逊、谷歌在半年内面试中考过）
+课后作业
+	•	最长上升子序列（字节跳动、亚马逊、微软在半年内面试中考过）
+	•	解码方法（Facebook、亚马逊、字节跳动在半年内面试中考过）
+	•	最长有效括号（华为、亚马逊、字节跳动在半年内面试中考过）
+	•	最大矩形（谷歌、微软、字节跳动在半年内面试中考过）
+	•	不同的子序列（MathWorks 在半年内面试中考过）
+	•	赛车（谷歌在半年内面试中考过）
+参考链接
+	•	不可变字符串
+	•	Atoi 代码示例
+字符串基础问题
+	•	转换成小写字母（谷歌在半年内面试中考过）
+	•	最后一个单词的长度（苹果、谷歌、字节跳动在半年内面试中考过）
+	•	宝石与石头（亚马逊在半年内面试中考过）
+	•	字符串中的第一个唯一字符 （亚马逊、微软、Facebook 在半年内面试中考过）
+	•	字符串转换整数 (atoi) （亚马逊、微软、Facebook 在半年内面试中考过）
+字符串操作问题
+	•	最长公共前缀（亚马逊、谷歌、Facebook 在半年内面试中考过）
+	•	反转字符串（亚马逊、谷歌、苹果在半年内面试中考过）
+	•	反转字符串 II （亚马逊在半年内面试中考过）
+	•	翻转字符串里的单词（微软、字节跳动、苹果在半年内面试中考过）
+	•	反转字符串中的单词 III （微软、字节跳动、华为在半年内面试中考过）
+	•	仅仅反转字母（字节跳动在半年内面试中考过）
+异位词问题
+	•	有效的字母异位词 （Facebook、亚马逊、谷歌在半年内面试中考过）
+	•	字母异位词分组（亚马逊在半年内面试中常考）
+	•	找到字符串中所有字母异位词（Facebook 在半年内面试中常考）
+回文串问题
+	•	验证回文串（Facebook 在半年内面试中常考）
+	•	验证回文字符串 Ⅱ（Facebook 在半年内面试中常考）
+	•	最长回文子串（亚马逊、字节跳动、华为在半年内面试中常考）
+最长子串、子序列问题
+	•	最长公共子序列（亚马逊、字节跳动、谷歌在半年内面试中考过）
+	•	编辑距离（亚马逊、字节跳动、谷歌在半年内面试中考过）
+	•	最长回文子串（亚马逊、华为、字节跳动在半年内面试常考）
+字符串 +DP 问题
+	•	正则表达式匹配（Facebook、微软、字节跳动在半年内面试中考过）
+	•	题解： https://leetcode-cn.com/problems/regular-expression-matching/solution/ji-yu-guan-fang-ti-jie-gen-xiang-xi-de-jiang-jie-b/
+	•	通配符匹配（Facebook、微软、字节跳动在半年内面试中考过）
+	•	不同的子序列（MathWorks 在半年内面试中考过）
+参考链接
+	•	Boyer-Moore 算法
+	•	Sunday 算法
+	•	字符串匹配暴力法代码示例
+	•	Rabin-Karp 代码示例
+	•	KMP 字符串匹配算法视频
+	•	字符串匹配的 KMP 算法
+本周作业
+简单
+	•	字符串中的第一个唯一字符 （亚马逊、微软、Facebook 在半年内面试中考过）
+	•	反转字符串 II （亚马逊在半年内面试中考过）
+	•	翻转字符串里的单词（微软、字节跳动、苹果在半年内面试中考过）
+	•	反转字符串中的单词 III （微软、字节跳动、华为在半年内面试中考过）
+	•	仅仅反转字母（字节跳动在半年内面试中考过）
+	•	同构字符串（谷歌、亚马逊、微软在半年内面试中考过）
+	•	验证回文字符串 Ⅱ（Facebook 在半年内面试中常考）
+中等
+	•	在学习总结中，写出不同路径 2 这道题目的状态转移方程。
+	•	最长上升子序列（字节跳动、亚马逊、微软在半年内面试中考过）
+	•	解码方法（字节跳动、亚马逊、Facebook 在半年内面试中考过）
+	•	字符串转换整数 (atoi) （亚马逊、微软、Facebook 在半年内面试中考过）
+	•	找到字符串中所有字母异位词（Facebook 在半年内面试中常考）
+	•	最长回文子串（亚马逊、字节跳动、华为在半年内面试中常考）
+困难
+	•	最长有效括号（亚马逊、字节跳动、华为在半年内面试中考过）
+	•	赛车（谷歌在半年内面试中考过）
+	•	通配符匹配（Facebook、微软、字节跳动在半年内面试中考过）
+	•	不同的子序列（MathWorks 在半年内面试中考过）</String>
+            <ConnectedNoteIDs>93-94</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Link="https://leetcode-cn.com/problems/climbing-stairs/">8,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/unique-paths/">37,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/house-robber/">72,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/minimum-path-sum/">101,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/">132,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/unique-paths-ii/">179,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/unique-paths-ii/">183,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/climbing-stairs/">207,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/min-cost-climbing-stairs/">236,9</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/edit-distance/">263,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/longest-increasing-subsequence/">298,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/decode-ways/">331,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/longest-valid-parentheses/">367,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/maximal-rectangle/">399,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/distinct-subsequences/">428,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/race-car/">459,2</FormatRange>
+                <FormatRange Link="https://lemire.me/blog/2017/07/07/are-your-strings-immutable/">483,6</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/5kykuLmt7a4DdjSP">493,5</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/5kykuLmt7a4DdjSP">498,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/to-lower-case/">514,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/length-of-last-word/">538,9</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/jewels-and-stones/">572,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/first-unique-character-in-a-string/">595,12</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/first-unique-character-in-a-string/">607,1</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/string-to-integer-atoi/">639,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/string-to-integer-atoi/">646,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/longest-common-prefix/description/">693,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/reverse-string">730,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/reverse-string-ii/">759,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/reverse-string-ii/">764,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/reverse-words-in-a-string/">786,9</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/">820,9</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/">829,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/reverse-only-letters/">859,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/valid-anagram/">890,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/valid-anagram/">898,1</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/group-anagrams/">929,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/">954,13</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/valid-palindrome/">997,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/valid-palindrome-ii/">1026,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/valid-palindrome-ii/">1033,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/longest-palindromic-substring/">1059,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/longest-common-subsequence/">1102,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/edit-distance/">1135,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/longest-palindromic-substring/">1165,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/regular-expression-matching/">1207,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/regular-expression-matching/solution/ji-yu-guan-fang-ti-jie-gen-xiang-xi-de-jiang-jie-b/">1248,122</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/wildcard-matching/">1374,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/distinct-subsequences/">1410,6</FormatRange>
+                <FormatRange Link="https://www.ruanyifeng.com/blog/2013/05/boyer-moore_string_search_algorithm.html">1446,12</FormatRange>
+                <FormatRange Link="https://www.ruanyifeng.com/blog/2013/05/boyer-moore_string_search_algorithm.html">1458,2</FormatRange>
+                <FormatRange Link="https://blog.csdn.net/u012505432/article/details/52210975">1464,7</FormatRange>
+                <FormatRange Link="https://blog.csdn.net/u012505432/article/details/52210975">1471,2</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/8G0aJqNL86wWrPUE">1477,12</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/1wnsM7eaZ6Ab9j9M">1493,11</FormatRange>
+                <FormatRange Link="https://shimo.im/docs/1wnsM7eaZ6Ab9j9M">1504,4</FormatRange>
+                <FormatRange Link="https://www.bilibili.com/video/av11866460?from=search&amp;seid=17425875345653862171">1512,4</FormatRange>
+                <FormatRange Link="https://www.bilibili.com/video/av11866460?from=search&amp;seid=17425875345653862171">1516,9</FormatRange>
+                <FormatRange Link="http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html">1529,6</FormatRange>
+                <FormatRange Link="http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html">1535,5</FormatRange>
+                <FormatRange Link="http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html">1540,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/first-unique-character-in-a-string/">1554,12</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/first-unique-character-in-a-string/">1566,1</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/reverse-string-ii/">1598,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/reverse-string-ii/">1603,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/reverse-words-in-a-string/">1625,9</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/">1659,9</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/">1668,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/reverse-only-letters/">1698,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/isomorphic-strings/">1723,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/valid-palindrome-ii/">1752,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/valid-palindrome-ii/">1759,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/unique-paths-ii/">1797,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/unique-paths-ii/">1801,3</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/longest-increasing-subsequence/">1820,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/decode-ways/">1853,4</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/string-to-integer-atoi/">1890,7</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/string-to-integer-atoi/">1897,8</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/">1936,13</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/longest-palindromic-substring/">1973,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/longest-valid-parentheses/">2008,6</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/race-car/">2040,2</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/wildcard-matching/">2059,5</FormatRange>
+                <FormatRange Link="https://leetcode-cn.com/problems/distinct-subsequences/">2095,6</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="93" FontSize="12.0" Position="759.0,3730.0" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>第九周</String>
+            <ConnectedNoteIDs>92</ConnectedNoteIDs>
+        </Note>
+        <Note ID="94" FontSize="12.0" Position="758.0,3602.0" Width="68.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>高级DP
+字符串算法</String>
+            <ConnectedNoteIDs>92</ConnectedNoteIDs>
+        </Note>
+        <Note ID="95" FontSize="5.0" Position="511.0,4020.0" Width="239.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.225469 0.225462 0.225466</TextColor>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>基础
+	•	两数之和（简单）
+	•	有效的括号（简单）
+	•	字符串解码（中等）
+	•	LRU 缓存机制（困难）
+	•	实现 Trie（前缀树）（中等）
+	•	添加与搜索单词 - 数据结构设计（中等）
+	•	单词搜索 II （困难）
+	•	找不同（简单）
+	•	单词规律（简单）
+	•	字符串中的第一个唯一字符（简单）
+	•	无重复字符的最长子串（中等）
+	•	最小覆盖子串（困难）
+	•	合并两个有序链表（简单）
+	•	环形链表（简单）
+	•	环形链表 II （中等）
+	•	反转链表（简单）
+	•	反转链表 II （中等）
+	•	旋转链表（中等）
+	•	排序链表
+	•	链表中倒数第 k 个节点
+	•	两两交换链表中的节点（中等）
+	•	按奇偶排序数组（简单）
+	•	按奇偶排序数组 II （简单）
+	•	有序数组的平方（简单）
+	•	山脉数组的峰顶索引（简单）
+	•	搜索旋转排序数组（困难）
+	•	搜索旋转排序数组 II （中等）
+	•	寻找旋转排序数组中的最小值（中等）
+	•	寻找旋转排序数组中的最小值 II （困难）
+	•	搜索二维矩阵（中等）
+	•	等式方程的可满足性（中等）
+	•	朋友圈（中等）
+	•	账户合并（中等）
+深度优先搜索
+	•	二叉树的最大深度（简单）
+	•	路径总和（简单）
+	•	路径总和 II （中等）
+	•	被围绕的区域（中等）
+	•	岛屿数量（中等）
+	•	岛屿的最大面积（中等）
+	•	在二叉树中分配硬币（中等）
+回溯
+	•	括号生成（中等）
+	•	N 皇后（困难）
+	•	N 皇后 II （困难）
+	•	解数独 （中等）
+	•	不同路径 III （困难）
+	•	单词搜索（中等）
+分治
+	•	搜索二维矩阵 II （中等）
+	•	合并 K 个排序链表（中等）
+	•	为运算表达式设计优先级（中等）
+	•	给表达式添加运算符（困难）
+	•	数组中的第 K 个最大元素（中等）
+	•	最接近原点的 K 个点（中等）
+	•	鸡蛋掉落（困难）
+动态规划
+	•	使用最小花费爬楼梯（简单）
+	•	爬楼梯（简单）
+	•	不同路径（简单）
+	•	最小路径和 （中等）
+	•	最大子序和 （简单）
+	•	乘积最大子数组（中等）
+	•	买卖股票的最佳时机（简单）
+	•	买卖股票的最佳时机 II （简单）
+	•	买卖股票的最佳时机 III （困难）
+	•	买卖股票的最佳时机 IV （困难）
+	•	最佳买卖股票时机含冷冻期（中等）
+	•	买卖股票的最佳时机含手续费（中等）
+	•	零钱兑换 （中等）
+	•	零钱兑换 II （中等）
+	•	编辑距离（困难）
+	•	不同的子序列（困难）
+	•	柱状图中最大的矩形（困难）
+	•	最大矩形（困难）
+	•	最大正方形（中等）
+	•	最低票价（中等）
+	•	区域和检索 - 数组不可变（简单）
+	•	二维区域和检索 - 矩阵不可变（中等）
+	•	最长上升子序列 （中等）
+	•	鸡蛋掉落（困难）
+</String>
+            <ConnectedNoteIDs>96</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Link="http://leetcode-cn.com/problems/two-sum">6,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/valid-parentheses/">18,5</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/decode-string/">31,5</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/lru-cache/submissions/">44,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/lru-cache/submissions/">48,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/implement-trie-prefix-tree/">60,2</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/implement-trie-prefix-tree/">62,5</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/implement-trie-prefix-tree/">67,5</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/add-and-search-word-data-structure-design/">80,7</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/add-and-search-word-data-structure-design/">87,3</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/add-and-search-word-data-structure-design/">90,6</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/word-search-ii/">104,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/word-search-ii/">108,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/find-the-difference/">120,3</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/word-pattern/">131,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/first-unique-character-in-a-string">143,12</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/longest-substring-without-repeating-characters">163,10</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/minimum-window-substring/">181,6</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/merge-two-sorted-lists">195,8</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/linked-list-cycle">211,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/linked-list-cycle-ii">223,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/linked-list-cycle-ii">227,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/reverse-linked-list">239,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/reverse-linked-list-ii">251,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/reverse-linked-list-ii">255,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/rotate-list">267,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/sort-list/">279,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/">287,6</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/">293,3</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/">296,3</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/swap-nodes-in-pairs">303,10</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/sort-array-by-parity/">321,7</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/sort-array-by-parity-ii/">336,7</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/sort-array-by-parity-ii/">343,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/squares-of-a-sorted-array/">355,7</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/peak-index-in-a-mountain-array">370,9</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/search-in-rotated-sorted-array">387,8</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/">403,8</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/">411,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/">423,13</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/">444,13</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/">457,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/search-a-2d-matrix">469,6</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/satisfiability-of-equality-equations/">483,9</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/friend-circles/">500,3</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/accounts-merge/">511,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/maximum-depth-of-binary-tree">530,8</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/path-sum/">546,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/path-sum-ii/">558,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/path-sum-ii/">562,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/surrounded-regions/">574,6</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/number-of-islands/">588,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/max-area-of-island/">600,7</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/distribute-coins-in-binary-tree/">615,9</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/generate-parentheses/">635,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/n-queens/">647,2</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/n-queens/">649,2</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/n-queens-ii/">659,2</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/n-queens-ii/">661,2</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/n-queens-ii/">663,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/sudoku-solver/">675,3</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/unique-paths-iii/">687,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/unique-paths-iii/">691,5</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/word-search/">704,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/search-a-2d-matrix-ii/">719,6</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/search-a-2d-matrix-ii/">725,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/merge-k-sorted-lists">737,2</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/merge-k-sorted-lists">739,3</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/merge-k-sorted-lists">742,5</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/different-ways-to-add-parentheses">755,11</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/expression-add-operators">774,9</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/kth-largest-element-in-an-array">791,5</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/kth-largest-element-in-an-array">796,3</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/kth-largest-element-in-an-array">799,5</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/k-closest-points-to-origin/">812,6</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/k-closest-points-to-origin/">818,3</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/k-closest-points-to-origin/">821,2</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/super-egg-drop/">831,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/min-cost-climbing-stairs">848,9</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/climbing-stairs">865,3</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/unique-paths/">876,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/minimum-path-sum/">888,5</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/maximum-subarray/">902,5</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/maximum-product-subarray/">916,7</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock">931,9</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/">948,9</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/">957,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/">969,9</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/">978,5</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/">991,9</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/">1000,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/">1012,12</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee">1032,13</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/coin-change">1053,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/coin-change-2">1066,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/coin-change-2">1070,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/edit-distance">1082,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/distinct-subsequences/">1094,6</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/largest-rectangle-in-histogram/">1108,9</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/maximal-rectangle/">1125,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/maximal-square/">1137,5</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/minimum-cost-for-tickets/">1150,4</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/range-sum-query-immutable/">1162,5</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/range-sum-query-immutable/">1167,3</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/range-sum-query-immutable/">1170,5</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/range-sum-query-2d-immutable/">1183,7</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/range-sum-query-2d-immutable/">1190,3</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/range-sum-query-2d-immutable/">1193,5</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/longest-increasing-subsequence">1206,7</FormatRange>
+                <FormatRange Link="http://leetcode-cn.com/problems/super-egg-drop/">1222,4</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="96" FontSize="12.0" Position="762.0,4293.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>持续练习</String>
+            <ConnectedNoteIDs>95</ConnectedNoteIDs>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <AutoFit>71, 75, 77-78, 80-82, 84-85, 87-88, 90, 93-94, 96</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="6F41E193-28AD-4104-A5B2-DACC69E38878" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.561855 0.71062 0.779401</BorderColor>
+            <FillColor>0.702319 0.888276 0.974252</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="32A9D4E1-96FB-4214-9E8E-90F1C0FADD73" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.572684 0.758969 0.558154</BorderColor>
+            <FillColor>0.715855 0.948712 0.697692</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="EBE3C95B-74B8-4B61-8423-E77C43A48120" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.957566 0.766747 0.999616</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="70C6068D-8032-4516-B4F2-04316D5CD041" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.993495 0.701207 0.732587</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="D8267BD2-A9DB-4ABA-8DE0-71872DFCBFF2" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.798177 0.714184 0.522055</BorderColor>
+            <FillColor>0.997722 0.89273 0.652569</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="B7569A20-7D98-4832-A80B-941105B6C9B1" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985948 0.0 0.026951</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="C7100CF4-8666-4DFA-82F8-7BF660E2DAF8" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999767 0.98837 0.949907</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
